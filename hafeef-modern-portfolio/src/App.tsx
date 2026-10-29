@@ -117,27 +117,67 @@ export function App() {
       <main>
         <section id="home" className="hero section">
           <div className="hero-copy reveal">
-            <div className="eyebrow"><span className="status-dot" /> Available for opportunities</div>
-            <h1>
-              Building reliable
-              <span className="outline"> digital infrastructure.</span>
-            </h1>
+            <div className="hero-badge-row">
+              <span className="status-badge">
+                <span className="status-dot" /> Available for opportunities
+              </span>
+              <span className="location-pill">Kerala, IN · Open to UAE / Remote</span>
+            </div>
+
+            <div className="hero-name-block">
+              <div className="hero-salutation">
+                <span className="salutation-dash">—</span>
+                <span>Hello, I'm</span>
+              </div>
+              <h1 className="hero-main-title">
+                <span className="first-name">HAFEEF</span>
+                <span className="last-name">PARVESH<span className="period-dot">.</span></span>
+              </h1>
+              <div className="hero-role-pill">
+                <span className="role-bullet">⚡</span>
+                <span className="role-text">IT Infrastructure & Cloud Engineer</span>
+                <span className="role-divider">/</span>
+                <span className="role-sub">Cisco · Linux · AWS</span>
+              </div>
+            </div>
+
             <p className="hero-lead">
-              IT Infrastructure professional focused on <strong>networking, Linux and AWS Cloud</strong> —
-              turning complex systems into stable, secure and scalable environments.
+              Architecting secure <strong>enterprise networks, automated Linux servers, and scalable AWS cloud infrastructure</strong> — built for 99.9% uptime, seamless performance, and modern cyber-readiness.
             </p>
+
             <div className="hero-actions">
               <button className="button primary" onClick={() => go("work")}>View my work <ArrowDown size={16} /></button>
               <a className="button secondary" href="mailto:hafeefparveshmp@gmail.com">Get in touch <Mail size={16} /></a>
             </div>
-            <div className="hero-meta">
-              <span>KERALA, INDIA</span><i /> <span>OPEN TO UAE / REMOTE</span>
+
+            <div className="hero-stats">
+              <div className="stat-item">
+                <strong>CCNA & AWS</strong>
+                <span>Core Competence</span>
+              </div>
+              <div className="stat-divider" />
+              <div className="stat-item">
+                <strong>RHEL & Bash</strong>
+                <span>Systems & Automation</span>
+              </div>
+              <div className="stat-divider" />
+              <div className="stat-item">
+                <strong>B.Tech ECE</strong>
+                <span>2021 — 2025</span>
+              </div>
             </div>
           </div>
 
           <div className="hero-visual reveal">
             <div className="hero-photo-container">
               <div className="hero-photo-glow" />
+              
+              <div className="photo-identity-badge">
+                <span className="verified-dot"><CheckCircle2 size={13} /></span>
+                <span>HAFEEF PARVESH</span>
+                <small>INFRA · CLOUD</small>
+              </div>
+
               <div className="hero-photo-frame">
                 <img
                   src="/profile.png"
