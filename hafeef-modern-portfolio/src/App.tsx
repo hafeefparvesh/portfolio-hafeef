@@ -221,7 +221,7 @@ export function App() {
               <p>My work spans Cisco networking, Red Hat Enterprise Linux administration and AWS Cloud services. I enjoy troubleshooting systems, learning new technologies and building practical infrastructure solutions.</p>
               <div className="facts">
                 <div><strong>01</strong><span>B.Tech ECE<br />2021 — 2025</span></div>
-                <div><strong>06+</strong><span>Months<br />Industry Experience</span></div>
+                <div><strong>01</strong><span>Year<br />Industry Experience</span></div>
                 <div><strong>03</strong><span>Core Areas<br />Network · Linux · Cloud</span></div>
               </div>
             </div>
