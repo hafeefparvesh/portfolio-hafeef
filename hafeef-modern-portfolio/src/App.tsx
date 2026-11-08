@@ -10,7 +10,9 @@ import {
   Linkedin,
   Mail,
   Menu,
+  MessageSquare,
   Network,
+  Phone,
   Server,
   ShieldCheck,
   Terminal,
@@ -282,10 +284,23 @@ export function App() {
           <span className="section-number">04</span>
           <h2>Let's build something<br /><em>reliable.</em></h2>
           <p>Have an opportunity, project or just want to connect?</p>
-          <a className="contact-email" href="mailto:hafeefparveshmp@gmail.com">hafeefparveshmp@gmail.com <ArrowUpRight /></a>
+          <div className="contact-methods">
+            <a className="contact-link" href="mailto:hafeefparveshmp@gmail.com">
+              <Mail size={20} />
+              <span>hafeefparveshmp@gmail.com</span>
+              <ArrowUpRight size={18} />
+            </a>
+            <a className="contact-link" href="tel:+971569521729">
+              <Phone size={20} />
+              <span>+971 56 952 1729</span>
+              <span className="contact-tag">UAE</span>
+              <ArrowUpRight size={18} />
+            </a>
+          </div>
           <div className="socials">
             <a href="https://linkedin.com/in/hafeefparvesh" target="_blank" rel="noreferrer"><Linkedin size={17} /> LinkedIn</a>
             <a href="https://github.com/" target="_blank" rel="noreferrer"><Github size={17} /> GitHub</a>
+            <a href="https://wa.me/971569521729" target="_blank" rel="noreferrer"><MessageSquare size={17} /> WhatsApp</a>
           </div>
         </section>
       </main>
