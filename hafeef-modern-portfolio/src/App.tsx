@@ -123,7 +123,7 @@ export function App() {
               <span className="status-badge">
                 <span className="status-dot" /> Available for opportunities
               </span>
-              <span className="location-pill">Kerala, IN · Open to UAE / Remote</span>
+              <span className="location-pill">Currently in UAE</span>
             </div>
 
             <div className="hero-name-block">
